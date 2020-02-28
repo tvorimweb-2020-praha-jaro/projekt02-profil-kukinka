@@ -11,9 +11,98 @@ html { box-sizing: border-box; }
  portfolio  #e74c3c
  facebook   #3b5998
  twitter    #1da1f2
-*/
+
+ */
 
 
-body {
+body{
     background-color: #bdc3c7;
+    width: 250px;
+    color: white;
+    box-shadow: 2px 2px 4px #31363b;
 }
+
+
+p{
+  font-family: 'Source Sans Pro';
+  padding-left: 1em;
+  margin-right: 1em;
+  font-size: 16px;
+  color:#bdc3c7
+}
+
+div{
+  background-color: #31363b;
+}
+
+.jmeno{
+  font-family: 'Montserrat';
+  text-align: left;
+  padding-left: 1em;
+  font-size: 24px;
+}
+
+.foto{
+  width: 250px;
+  position: relative;
+}
+
+.logo{
+  border-radius: 50%;
+  background-color: #b92e81;
+  box-shadow: 4px 4px 4px #181818;
+  position: absolute;
+  left: 190px;
+  top: 150px;
+}
+
+a{
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color:#bdc3c7;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+li{
+  display: inline-block;
+  padding: 1em;  
+  }
+
+.portfolio:hover{
+  background-color:#e74c3c;
+}
+
+.portfolio{
+  border-top: grey;
+  width:100%;
+  border-top-style: groove;
+}
+
+.facebook:hover{
+  background-color: #3b5998;
+}
+
+.facebook{
+  width:50%;
+  border-top: grey;
+  border-top-style: groove;
+}
+
+.twitter:hover{
+  background-color: #1da1f2;
+}
+
+.twitter{
+  width:50%;
+  border-top: grey;
+  border-top-style: groove;
+  border-left:#3f464d;
+  border-left-style: groove;
+}
+
+.odkazy{
+  padding:0;
+  text-align: center;
+  }
